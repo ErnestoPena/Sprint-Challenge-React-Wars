@@ -27,6 +27,16 @@ class App extends Component {
         throw new Error(err);
       });
   };
+
+  before = e => {
+    e.preventDefault();
+    console.log(e);
+  }
+
+  after = e => {
+    e.preventDefault();
+    console.log(e)
+  }
       render() {
     return (
       <div className="App">
