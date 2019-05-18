@@ -5,3 +5,16 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.card_container_main {
+  display: flex;
+  flex-wrap: wrap;
+    width:100%;
+}

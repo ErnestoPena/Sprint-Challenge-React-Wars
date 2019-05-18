@@ -1,0 +1,25 @@
+.card_container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 22%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.493);
+    border: 1px solid grey;
+    margin: 1%
+}
+
+h2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-bottom: 1px solid grey;
+}
+
+li {
+    list-style: none;
+    margin: 2% 0;
+    color: brown;
+}
+
+.card_detail {
+    color: blue;
+}
