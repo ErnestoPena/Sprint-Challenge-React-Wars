@@ -1,7 +1,7 @@
 import React from 'react';
 import './StarWars.css'
 
-const Card_Info = (props) => {
+const CardInfo = (props) => {
     console.log(props);
     return(
       <div className="card_container">  
@@ -19,4 +19,4 @@ const Card_Info = (props) => {
     )
 }
 
-export default Card_Info;
+export default CardInfo;

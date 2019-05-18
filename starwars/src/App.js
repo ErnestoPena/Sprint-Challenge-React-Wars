@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Card_Info from './components/card_info'
+import CardInfo from './components/card_info';
+import MyHeader from './components/header';
 
 class App extends Component {
   constructor() {
@@ -29,10 +30,10 @@ class App extends Component {
       render() {
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
+        <MyHeader/>
         <div className="card_container_main">
             {this.state.starwarsChars.map(arraymapped =>(
-              <Card_Info info_passed= {arraymapped} key={arraymapped.name}/>
+              <CardInfo info_passed= {arraymapped} key={arraymapped.name}/>
             ))};
         </div>
       </div>
