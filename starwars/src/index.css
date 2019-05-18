@@ -16,8 +16,11 @@ body {
 .card_container_main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width:100%;
 }
+
+
 
 .before, .after {
  font-family: Georgia, 'Times New Roman', Times, serif;
